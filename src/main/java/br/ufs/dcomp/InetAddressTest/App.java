@@ -18,7 +18,7 @@ public class App
             
             for (int i = 0; i < address.length; i++)
             {
-              System.out.println( "Address:   "+ address[i].getHostAddress());
+              System.out.println( "Address:  . "+ address[i].getHostAddress());
             }
            
         } catch (UnknownHostException e){
